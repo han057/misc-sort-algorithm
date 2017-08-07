@@ -12,7 +12,7 @@
  */
 
 #include <cstdlib>
-#include "GestionArchivo.h"
+#include "GestionArchivo.cpp"
 
 using namespace std;
 

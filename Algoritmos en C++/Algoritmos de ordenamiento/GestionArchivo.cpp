@@ -27,7 +27,7 @@ GestionArchivo::GestionArchivo(const GestionArchivo& orig) {
 GestionArchivo::~GestionArchivo() {
 }
 
-void LeerDatos() {
+void GestionArchivo::LeerDatos() {
 
     fstream archivo("datos1.txt");
     string num;
