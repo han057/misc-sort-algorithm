@@ -11,15 +11,25 @@
  * Created on 6 de agosto de 2017, 07:19 PM
  */
 
+#include <stdlib.h>
+#include <cstdlib>
+#include <string>
+
 #ifndef GESTIONARCHIVO_H
 #define GESTIONARCHIVO_H
 
+using namespace std;
+
 class GestionArchivo {
 public:
+    
     GestionArchivo();
     GestionArchivo(const GestionArchivo& orig);
     virtual ~GestionArchivo();
-    void LeerDatos();
+    
+    int* LeerDatos(int *vector, int n);
+    //void EscribirEstadisticas(string ordenamiento, int n, double tiempo);
+    
 private:
 
 };
